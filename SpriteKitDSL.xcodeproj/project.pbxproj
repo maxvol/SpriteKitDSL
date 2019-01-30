@@ -57,7 +57,7 @@
 		94D5E32D22023EA500E24B9A = {
 			isa = PBXGroup;
 			children = (
-				94D5E3A722024C2A00E24B9A /* DSK */,
+				94D5E3A722024C2A00E24B9A /* DSL */,
 				94D5E33922023EA500E24B9A /* SpriteKitDSL */,
 				94D5E34422023EA500E24B9A /* SpriteKitDSLTests */,
 				94D5E33822023EA500E24B9A /* Products */,
@@ -91,13 +91,13 @@
 			path = SpriteKitDSLTests;
 			sourceTree = "<group>";
 		};
-		94D5E3A722024C2A00E24B9A /* DSK */ = {
+		94D5E3A722024C2A00E24B9A /* DSL */ = {
 			isa = PBXGroup;
 			children = (
 				94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */,
 				94D5E3A822024C4200E24B9A /* SKPhysicsBody+DSL.swift */,
 			);
-			path = DSK;
+			path = DSL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
