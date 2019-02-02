@@ -25,6 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94B74A1E2205D278002F98DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		94D5E33722023EA500E24B9A /* SpriteKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpriteKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94D5E33A22023EA500E24B9A /* SpriteKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteKitDSL.h; sourceTree = "<group>"; };
 		94D5E33B22023EA500E24B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +58,7 @@
 		94D5E32D22023EA500E24B9A = {
 			isa = PBXGroup;
 			children = (
+				94B74A1E2205D278002F98DF /* README.md */,
 				94D5E3A722024C2A00E24B9A /* DSL */,
 				94D5E33922023EA500E24B9A /* SpriteKitDSL */,
 				94D5E34422023EA500E24B9A /* SpriteKitDSLTests */,

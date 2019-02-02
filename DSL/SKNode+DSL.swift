@@ -16,4 +16,10 @@ extension SKNode {
         return shapeNode
     }
     
+    func physicsBody(_ physicsBody: SKPhysicsBody, apply closure: (SKPhysicsBody) -> Void) -> SKPhysicsBody {
+        self.physicsBody = physicsBody
+        closure(physicsBody)
+        return physicsBody
+    }
+    
 }
