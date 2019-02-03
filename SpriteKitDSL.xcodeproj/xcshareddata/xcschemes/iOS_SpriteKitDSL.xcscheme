@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "94D5E33622023EA500E24B9A"
-               BuildableName = "SpriteKitDSL.framework"
-               BlueprintName = "SpriteKitDSL"
+               BlueprintIdentifier = "94B74B1F22071260002F98DF"
+               BuildableName = "iOS_SpriteKitDSL.framework"
+               BlueprintName = "iOS_SpriteKitDSL"
                ReferencedContainer = "container:SpriteKitDSL.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,9 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "94D5E33F22023EA500E24B9A"
-               BuildableName = "SpriteKitDSLTests.xctest"
-               BlueprintName = "SpriteKitDSLTests"
+               BlueprintIdentifier = "94B74B2722071260002F98DF"
+               BuildableName = "iOS_SpriteKitDSLTests.xctest"
+               BlueprintName = "iOS_SpriteKitDSLTests"
                ReferencedContainer = "container:SpriteKitDSL.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -42,9 +42,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94D5E33622023EA500E24B9A"
-            BuildableName = "SpriteKitDSL.framework"
-            BlueprintName = "SpriteKitDSL"
+            BlueprintIdentifier = "94B74B1F22071260002F98DF"
+            BuildableName = "iOS_SpriteKitDSL.framework"
+            BlueprintName = "iOS_SpriteKitDSL"
             ReferencedContainer = "container:SpriteKitDSL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,9 +64,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94D5E33622023EA500E24B9A"
-            BuildableName = "SpriteKitDSL.framework"
-            BlueprintName = "SpriteKitDSL"
+            BlueprintIdentifier = "94B74B1F22071260002F98DF"
+            BuildableName = "iOS_SpriteKitDSL.framework"
+            BlueprintName = "iOS_SpriteKitDSL"
             ReferencedContainer = "container:SpriteKitDSL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -82,9 +82,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "94D5E33622023EA500E24B9A"
-            BuildableName = "SpriteKitDSL.framework"
-            BlueprintName = "SpriteKitDSL"
+            BlueprintIdentifier = "94B74B1F22071260002F98DF"
+            BuildableName = "iOS_SpriteKitDSL.framework"
+            BlueprintName = "iOS_SpriteKitDSL"
             ReferencedContainer = "container:SpriteKitDSL.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

@@ -7,61 +7,136 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		94D5E34122023EA500E24B9A /* SpriteKitDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94D5E33722023EA500E24B9A /* SpriteKitDSL.framework */; };
-		94D5E34622023EA500E24B9A /* SpriteKitDSLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E34522023EA500E24B9A /* SpriteKitDSLTests.swift */; };
-		94D5E34822023EA500E24B9A /* SpriteKitDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94D5E33A22023EA500E24B9A /* SpriteKitDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94D5E3A922024C4200E24B9A /* SKPhysicsBody+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A822024C4200E24B9A /* SKPhysicsBody+DSL.swift */; };
-		94D5E3AB22024C7D00E24B9A /* SKNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */; };
+		94B74B2922071260002F98DF /* iOS_SpriteKitDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B74B2022071260002F98DF /* iOS_SpriteKitDSL.framework */; };
+		94B74B2E22071260002F98DF /* iOS_SpriteKitDSLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B2D22071260002F98DF /* iOS_SpriteKitDSLTests.swift */; };
+		94B74B3022071261002F98DF /* iOS_SpriteKitDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B74B2222071260002F98DF /* iOS_SpriteKitDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B74B4522071279002F98DF /* macOS_SpriteKitDSL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94B74B3C22071278002F98DF /* macOS_SpriteKitDSL.framework */; };
+		94B74B4A22071279002F98DF /* macOS_SpriteKitDSLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B4922071279002F98DF /* macOS_SpriteKitDSLTests.swift */; };
+		94B74B4C22071279002F98DF /* macOS_SpriteKitDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B74B3E22071279002F98DF /* macOS_SpriteKitDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94B74B53220712F4002F98DF /* SKNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */; };
+		94B74B54220712F7002F98DF /* SKNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */; };
+		94B74B55220712F8002F98DF /* SKNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */; };
+		94B74B5722071301002F98DF /* SKNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */; };
+		94B74B5822071305002F98DF /* SKPhysicsBody+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A822024C4200E24B9A /* SKPhysicsBody+DSL.swift */; };
+		94B74B5922071306002F98DF /* SKPhysicsBody+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A822024C4200E24B9A /* SKPhysicsBody+DSL.swift */; };
+		94B74B5A22071308002F98DF /* SKPhysicsBody+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A822024C4200E24B9A /* SKPhysicsBody+DSL.swift */; };
+		94B74B5B22071309002F98DF /* SKPhysicsBody+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A822024C4200E24B9A /* SKPhysicsBody+DSL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		94D5E34222023EA500E24B9A /* PBXContainerItemProxy */ = {
+		94B74B2A22071260002F98DF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 94D5E32E22023EA500E24B9A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 94D5E33622023EA500E24B9A;
-			remoteInfo = SpriteKitDSL;
+			remoteGlobalIDString = 94B74B1F22071260002F98DF;
+			remoteInfo = iOS_SpriteKitDSL;
+		};
+		94B74B4622071279002F98DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94D5E32E22023EA500E24B9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B74B3B22071278002F98DF;
+			remoteInfo = macOS_SpriteKitDSL;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		94B74A1E2205D278002F98DF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		94D5E33722023EA500E24B9A /* SpriteKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpriteKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		94D5E33A22023EA500E24B9A /* SpriteKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpriteKitDSL.h; sourceTree = "<group>"; };
-		94D5E33B22023EA500E24B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94D5E34022023EA500E24B9A /* SpriteKitDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpriteKitDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		94D5E34522023EA500E24B9A /* SpriteKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteKitDSLTests.swift; sourceTree = "<group>"; };
-		94D5E34722023EA500E24B9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74B2022071260002F98DF /* iOS_SpriteKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOS_SpriteKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74B2222071260002F98DF /* iOS_SpriteKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_SpriteKitDSL.h; sourceTree = "<group>"; };
+		94B74B2322071260002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74B2822071260002F98DF /* iOS_SpriteKitDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_SpriteKitDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74B2D22071260002F98DF /* iOS_SpriteKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_SpriteKitDSLTests.swift; sourceTree = "<group>"; };
+		94B74B2F22071261002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74B3C22071278002F98DF /* macOS_SpriteKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = macOS_SpriteKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74B3E22071279002F98DF /* macOS_SpriteKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macOS_SpriteKitDSL.h; sourceTree = "<group>"; };
+		94B74B3F22071279002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74B4422071279002F98DF /* macOS_SpriteKitDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOS_SpriteKitDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B74B4922071279002F98DF /* macOS_SpriteKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_SpriteKitDSLTests.swift; sourceTree = "<group>"; };
+		94B74B4B22071279002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94D5E3A822024C4200E24B9A /* SKPhysicsBody+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKPhysicsBody+DSL.swift"; sourceTree = "<group>"; };
 		94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKNode+DSL.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		94D5E33422023EA500E24B9A /* Frameworks */ = {
+		94B74B1D22071260002F98DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94D5E33D22023EA500E24B9A /* Frameworks */ = {
+		94B74B2522071260002F98DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D5E34122023EA500E24B9A /* SpriteKitDSL.framework in Frameworks */,
+				94B74B2922071260002F98DF /* iOS_SpriteKitDSL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74B3922071278002F98DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74B4122071279002F98DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B74B4522071279002F98DF /* macOS_SpriteKitDSL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		94B74B2122071260002F98DF /* iOS_SpriteKitDSL */ = {
+			isa = PBXGroup;
+			children = (
+				94B74B2222071260002F98DF /* iOS_SpriteKitDSL.h */,
+				94B74B2322071260002F98DF /* Info.plist */,
+			);
+			path = iOS_SpriteKitDSL;
+			sourceTree = "<group>";
+		};
+		94B74B2C22071260002F98DF /* iOS_SpriteKitDSLTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B74B2D22071260002F98DF /* iOS_SpriteKitDSLTests.swift */,
+				94B74B2F22071261002F98DF /* Info.plist */,
+			);
+			path = iOS_SpriteKitDSLTests;
+			sourceTree = "<group>";
+		};
+		94B74B3D22071279002F98DF /* macOS_SpriteKitDSL */ = {
+			isa = PBXGroup;
+			children = (
+				94B74B3E22071279002F98DF /* macOS_SpriteKitDSL.h */,
+				94B74B3F22071279002F98DF /* Info.plist */,
+			);
+			path = macOS_SpriteKitDSL;
+			sourceTree = "<group>";
+		};
+		94B74B4822071279002F98DF /* macOS_SpriteKitDSLTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B74B4922071279002F98DF /* macOS_SpriteKitDSLTests.swift */,
+				94B74B4B22071279002F98DF /* Info.plist */,
+			);
+			path = macOS_SpriteKitDSLTests;
+			sourceTree = "<group>";
+		};
 		94D5E32D22023EA500E24B9A = {
 			isa = PBXGroup;
 			children = (
 				94B74A1E2205D278002F98DF /* README.md */,
 				94D5E3A722024C2A00E24B9A /* DSL */,
-				94D5E33922023EA500E24B9A /* SpriteKitDSL */,
-				94D5E34422023EA500E24B9A /* SpriteKitDSLTests */,
+				94B74B2122071260002F98DF /* iOS_SpriteKitDSL */,
+				94B74B2C22071260002F98DF /* iOS_SpriteKitDSLTests */,
+				94B74B3D22071279002F98DF /* macOS_SpriteKitDSL */,
+				94B74B4822071279002F98DF /* macOS_SpriteKitDSLTests */,
 				94D5E33822023EA500E24B9A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,28 +144,12 @@
 		94D5E33822023EA500E24B9A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				94D5E33722023EA500E24B9A /* SpriteKitDSL.framework */,
-				94D5E34022023EA500E24B9A /* SpriteKitDSLTests.xctest */,
+				94B74B2022071260002F98DF /* iOS_SpriteKitDSL.framework */,
+				94B74B2822071260002F98DF /* iOS_SpriteKitDSLTests.xctest */,
+				94B74B3C22071278002F98DF /* macOS_SpriteKitDSL.framework */,
+				94B74B4422071279002F98DF /* macOS_SpriteKitDSLTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		94D5E33922023EA500E24B9A /* SpriteKitDSL */ = {
-			isa = PBXGroup;
-			children = (
-				94D5E33A22023EA500E24B9A /* SpriteKitDSL.h */,
-				94D5E33B22023EA500E24B9A /* Info.plist */,
-			);
-			path = SpriteKitDSL;
-			sourceTree = "<group>";
-		};
-		94D5E34422023EA500E24B9A /* SpriteKitDSLTests */ = {
-			isa = PBXGroup;
-			children = (
-				94D5E34522023EA500E24B9A /* SpriteKitDSLTests.swift */,
-				94D5E34722023EA500E24B9A /* Info.plist */,
-			);
-			path = SpriteKitDSLTests;
 			sourceTree = "<group>";
 		};
 		94D5E3A722024C2A00E24B9A /* DSL */ = {
@@ -105,51 +164,95 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		94D5E33222023EA500E24B9A /* Headers */ = {
+		94B74B1B22071260002F98DF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D5E34822023EA500E24B9A /* SpriteKitDSL.h in Headers */,
+				94B74B3022071261002F98DF /* iOS_SpriteKitDSL.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74B3722071278002F98DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B74B4C22071279002F98DF /* macOS_SpriteKitDSL.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		94D5E33622023EA500E24B9A /* SpriteKitDSL */ = {
+		94B74B1F22071260002F98DF /* iOS_SpriteKitDSL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94D5E34B22023EA500E24B9A /* Build configuration list for PBXNativeTarget "SpriteKitDSL" */;
+			buildConfigurationList = 94B74B3122071261002F98DF /* Build configuration list for PBXNativeTarget "iOS_SpriteKitDSL" */;
 			buildPhases = (
-				94D5E33222023EA500E24B9A /* Headers */,
-				94D5E33322023EA500E24B9A /* Sources */,
-				94D5E33422023EA500E24B9A /* Frameworks */,
-				94D5E33522023EA500E24B9A /* Resources */,
+				94B74B1B22071260002F98DF /* Headers */,
+				94B74B1C22071260002F98DF /* Sources */,
+				94B74B1D22071260002F98DF /* Frameworks */,
+				94B74B1E22071260002F98DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SpriteKitDSL;
-			productName = SpriteKitDSL;
-			productReference = 94D5E33722023EA500E24B9A /* SpriteKitDSL.framework */;
+			name = iOS_SpriteKitDSL;
+			productName = iOS_SpriteKitDSL;
+			productReference = 94B74B2022071260002F98DF /* iOS_SpriteKitDSL.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		94D5E33F22023EA500E24B9A /* SpriteKitDSLTests */ = {
+		94B74B2722071260002F98DF /* iOS_SpriteKitDSLTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94D5E34E22023EA500E24B9A /* Build configuration list for PBXNativeTarget "SpriteKitDSLTests" */;
+			buildConfigurationList = 94B74B3422071261002F98DF /* Build configuration list for PBXNativeTarget "iOS_SpriteKitDSLTests" */;
 			buildPhases = (
-				94D5E33C22023EA500E24B9A /* Sources */,
-				94D5E33D22023EA500E24B9A /* Frameworks */,
-				94D5E33E22023EA500E24B9A /* Resources */,
+				94B74B2422071260002F98DF /* Sources */,
+				94B74B2522071260002F98DF /* Frameworks */,
+				94B74B2622071260002F98DF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				94D5E34322023EA500E24B9A /* PBXTargetDependency */,
+				94B74B2B22071260002F98DF /* PBXTargetDependency */,
 			);
-			name = SpriteKitDSLTests;
-			productName = SpriteKitDSLTests;
-			productReference = 94D5E34022023EA500E24B9A /* SpriteKitDSLTests.xctest */;
+			name = iOS_SpriteKitDSLTests;
+			productName = iOS_SpriteKitDSLTests;
+			productReference = 94B74B2822071260002F98DF /* iOS_SpriteKitDSLTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94B74B3B22071278002F98DF /* macOS_SpriteKitDSL */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B74B4D22071279002F98DF /* Build configuration list for PBXNativeTarget "macOS_SpriteKitDSL" */;
+			buildPhases = (
+				94B74B3722071278002F98DF /* Headers */,
+				94B74B3822071278002F98DF /* Sources */,
+				94B74B3922071278002F98DF /* Frameworks */,
+				94B74B3A22071278002F98DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macOS_SpriteKitDSL;
+			productName = macOS_SpriteKitDSL;
+			productReference = 94B74B3C22071278002F98DF /* macOS_SpriteKitDSL.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		94B74B4322071279002F98DF /* macOS_SpriteKitDSLTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B74B5022071279002F98DF /* Build configuration list for PBXNativeTarget "macOS_SpriteKitDSLTests" */;
+			buildPhases = (
+				94B74B4022071279002F98DF /* Sources */,
+				94B74B4122071279002F98DF /* Frameworks */,
+				94B74B4222071279002F98DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B74B4722071279002F98DF /* PBXTargetDependency */,
+			);
+			name = macOS_SpriteKitDSLTests;
+			productName = macOS_SpriteKitDSLTests;
+			productReference = 94B74B4422071279002F98DF /* macOS_SpriteKitDSLTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -162,11 +265,16 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Maxim Volgin";
 				TargetAttributes = {
-					94D5E33622023EA500E24B9A = {
+					94B74B1F22071260002F98DF = {
 						CreatedOnToolsVersion = 10.1;
-						LastSwiftMigration = 1010;
 					};
-					94D5E33F22023EA500E24B9A = {
+					94B74B2722071260002F98DF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					94B74B3B22071278002F98DF = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					94B74B4322071279002F98DF = {
 						CreatedOnToolsVersion = 10.1;
 					};
 				};
@@ -183,21 +291,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				94D5E33622023EA500E24B9A /* SpriteKitDSL */,
-				94D5E33F22023EA500E24B9A /* SpriteKitDSLTests */,
+				94B74B1F22071260002F98DF /* iOS_SpriteKitDSL */,
+				94B74B2722071260002F98DF /* iOS_SpriteKitDSLTests */,
+				94B74B3B22071278002F98DF /* macOS_SpriteKitDSL */,
+				94B74B4322071279002F98DF /* macOS_SpriteKitDSLTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		94D5E33522023EA500E24B9A /* Resources */ = {
+		94B74B1E22071260002F98DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94D5E33E22023EA500E24B9A /* Resources */ = {
+		94B74B2622071260002F98DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74B3A22071278002F98DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74B4222071279002F98DF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,34 +331,240 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		94D5E33322023EA500E24B9A /* Sources */ = {
+		94B74B1C22071260002F98DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D5E3A922024C4200E24B9A /* SKPhysicsBody+DSL.swift in Sources */,
-				94D5E3AB22024C7D00E24B9A /* SKNode+DSL.swift in Sources */,
+				94B74B53220712F4002F98DF /* SKNode+DSL.swift in Sources */,
+				94B74B5822071305002F98DF /* SKPhysicsBody+DSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		94D5E33C22023EA500E24B9A /* Sources */ = {
+		94B74B2422071260002F98DF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94D5E34622023EA500E24B9A /* SpriteKitDSLTests.swift in Sources */,
+				94B74B2E22071260002F98DF /* iOS_SpriteKitDSLTests.swift in Sources */,
+				94B74B5922071306002F98DF /* SKPhysicsBody+DSL.swift in Sources */,
+				94B74B5722071301002F98DF /* SKNode+DSL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74B3822071278002F98DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B74B54220712F7002F98DF /* SKNode+DSL.swift in Sources */,
+				94B74B5A22071308002F98DF /* SKPhysicsBody+DSL.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B74B4022071279002F98DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B74B4A22071279002F98DF /* macOS_SpriteKitDSLTests.swift in Sources */,
+				94B74B5B22071309002F98DF /* SKPhysicsBody+DSL.swift in Sources */,
+				94B74B55220712F8002F98DF /* SKNode+DSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		94D5E34322023EA500E24B9A /* PBXTargetDependency */ = {
+		94B74B2B22071260002F98DF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94D5E33622023EA500E24B9A /* SpriteKitDSL */;
-			targetProxy = 94D5E34222023EA500E24B9A /* PBXContainerItemProxy */;
+			target = 94B74B1F22071260002F98DF /* iOS_SpriteKitDSL */;
+			targetProxy = 94B74B2A22071260002F98DF /* PBXContainerItemProxy */;
+		};
+		94B74B4722071279002F98DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B74B3B22071278002F98DF /* macOS_SpriteKitDSL */;
+			targetProxy = 94B74B4622071279002F98DF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		94B74B3222071261002F98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iOS_SpriteKitDSL/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SpriteKitDSL;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94B74B3322071261002F98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iOS_SpriteKitDSL/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SpriteKitDSL;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94B74B3522071261002F98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_SpriteKitDSLTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maxvol.iOS-SpriteKitDSLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94B74B3622071261002F98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = iOS_SpriteKitDSLTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "maxvol.iOS-SpriteKitDSLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94B74B4E22071279002F98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = macOS_SpriteKitDSL/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SpriteKitDSL;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		94B74B4F22071279002F98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = macOS_SpriteKitDSL/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SpriteKitDSL;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		94B74B5122071279002F98DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOS_SpriteKitDSLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "maxvol.macOS-SpriteKitDSLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		94B74B5222071279002F98DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = macOS_SpriteKitDSLTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				PRODUCT_BUNDLE_IDENTIFIER = "maxvol.macOS-SpriteKitDSLTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 		94D5E34922023EA500E24B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -288,6 +618,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -346,6 +677,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -357,121 +689,50 @@
 			};
 			name = Release;
 		};
-		94D5E34C22023EA500E24B9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SpriteKitDSL/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SpriteKitDSL;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		94D5E34D22023EA500E24B9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = "";
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SpriteKitDSL/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SpriteKitDSL;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		94D5E34F22023EA500E24B9A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SpriteKitDSLTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SpriteKitDSLTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		94D5E35022023EA500E24B9A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = SpriteKitDSLTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = maxvol.SpriteKitDSLTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		94B74B3122071261002F98DF /* Build configuration list for PBXNativeTarget "iOS_SpriteKitDSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B74B3222071261002F98DF /* Debug */,
+				94B74B3322071261002F98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B74B3422071261002F98DF /* Build configuration list for PBXNativeTarget "iOS_SpriteKitDSLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B74B3522071261002F98DF /* Debug */,
+				94B74B3622071261002F98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B74B4D22071279002F98DF /* Build configuration list for PBXNativeTarget "macOS_SpriteKitDSL" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B74B4E22071279002F98DF /* Debug */,
+				94B74B4F22071279002F98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B74B5022071279002F98DF /* Build configuration list for PBXNativeTarget "macOS_SpriteKitDSLTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B74B5122071279002F98DF /* Debug */,
+				94B74B5222071279002F98DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		94D5E33122023EA500E24B9A /* Build configuration list for PBXProject "SpriteKitDSL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				94D5E34922023EA500E24B9A /* Debug */,
 				94D5E34A22023EA500E24B9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		94D5E34B22023EA500E24B9A /* Build configuration list for PBXNativeTarget "SpriteKitDSL" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94D5E34C22023EA500E24B9A /* Debug */,
-				94D5E34D22023EA500E24B9A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		94D5E34E22023EA500E24B9A /* Build configuration list for PBXNativeTarget "SpriteKitDSLTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				94D5E34F22023EA500E24B9A /* Debug */,
-				94D5E35022023EA500E24B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

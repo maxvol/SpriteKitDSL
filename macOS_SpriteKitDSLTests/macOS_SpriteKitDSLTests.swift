@@ -1,15 +1,15 @@
 //
-//  SpriteKitDSLTests.swift
-//  SpriteKitDSLTests
+//  macOS_SpriteKitDSLTests.swift
+//  macOS_SpriteKitDSLTests
 //
-//  Created by Maxim Volgin on 30/01/2019.
+//  Created by Maxim Volgin on 03/02/2019.
 //  Copyright © 2019 Maxim Volgin. All rights reserved.
 //
 
 import XCTest
-@testable import SpriteKitDSL
+@testable import macOS_SpriteKitDSL
 
-class SpriteKitDSLTests: XCTestCase {
+class macOS_SpriteKitDSLTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
