@@ -15,12 +15,16 @@
 		94B74B4C22071279002F98DF /* macOS_SpriteKitDSL.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B74B3E22071279002F98DF /* macOS_SpriteKitDSL.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94B74B53220712F4002F98DF /* SKNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */; };
 		94B74B54220712F7002F98DF /* SKNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */; };
-		94B74B55220712F8002F98DF /* SKNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */; };
-		94B74B5722071301002F98DF /* SKNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */; };
 		94B74B5822071305002F98DF /* SKPhysicsBody+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A822024C4200E24B9A /* SKPhysicsBody+DSL.swift */; };
 		94B74B5922071306002F98DF /* SKPhysicsBody+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A822024C4200E24B9A /* SKPhysicsBody+DSL.swift */; };
 		94B74B5A22071308002F98DF /* SKPhysicsBody+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A822024C4200E24B9A /* SKPhysicsBody+DSL.swift */; };
 		94B74B5B22071309002F98DF /* SKPhysicsBody+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D5E3A822024C4200E24B9A /* SKPhysicsBody+DSL.swift */; };
+		94B74B8B2207140C002F98DF /* SKSpriteNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B8A2207140C002F98DF /* SKSpriteNode+DSL.swift */; };
+		94B74B8C2207140F002F98DF /* SKSpriteNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B8A2207140C002F98DF /* SKSpriteNode+DSL.swift */; };
+		94B74B8E2207142D002F98DF /* SKLabelNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B8D2207142D002F98DF /* SKLabelNode+DSL.swift */; };
+		94B74B8F22071430002F98DF /* SKLabelNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B8D2207142D002F98DF /* SKLabelNode+DSL.swift */; };
+		94B74B9122071496002F98DF /* SKShapeNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B9022071496002F98DF /* SKShapeNode+DSL.swift */; };
+		94B74B92220714B5002F98DF /* SKShapeNode+DSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B74B9022071496002F98DF /* SKShapeNode+DSL.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,9 @@
 		94B74B4422071279002F98DF /* macOS_SpriteKitDSLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = macOS_SpriteKitDSLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B74B4922071279002F98DF /* macOS_SpriteKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_SpriteKitDSLTests.swift; sourceTree = "<group>"; };
 		94B74B4B22071279002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B74B8A2207140C002F98DF /* SKSpriteNode+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+DSL.swift"; sourceTree = "<group>"; };
+		94B74B8D2207142D002F98DF /* SKLabelNode+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKLabelNode+DSL.swift"; sourceTree = "<group>"; };
+		94B74B9022071496002F98DF /* SKShapeNode+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKShapeNode+DSL.swift"; sourceTree = "<group>"; };
 		94D5E3A822024C4200E24B9A /* SKPhysicsBody+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKPhysicsBody+DSL.swift"; sourceTree = "<group>"; };
 		94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKNode+DSL.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -155,8 +162,11 @@
 		94D5E3A722024C2A00E24B9A /* DSL */ = {
 			isa = PBXGroup;
 			children = (
-				94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */,
 				94D5E3A822024C4200E24B9A /* SKPhysicsBody+DSL.swift */,
+				94D5E3AA22024C7D00E24B9A /* SKNode+DSL.swift */,
+				94B74B8D2207142D002F98DF /* SKLabelNode+DSL.swift */,
+				94B74B8A2207140C002F98DF /* SKSpriteNode+DSL.swift */,
+				94B74B9022071496002F98DF /* SKShapeNode+DSL.swift */,
 			);
 			path = DSL;
 			sourceTree = "<group>";
@@ -335,8 +345,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B74B9122071496002F98DF /* SKShapeNode+DSL.swift in Sources */,
 				94B74B53220712F4002F98DF /* SKNode+DSL.swift in Sources */,
 				94B74B5822071305002F98DF /* SKPhysicsBody+DSL.swift in Sources */,
+				94B74B8E2207142D002F98DF /* SKLabelNode+DSL.swift in Sources */,
+				94B74B8B2207140C002F98DF /* SKSpriteNode+DSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +359,6 @@
 			files = (
 				94B74B2E22071260002F98DF /* iOS_SpriteKitDSLTests.swift in Sources */,
 				94B74B5922071306002F98DF /* SKPhysicsBody+DSL.swift in Sources */,
-				94B74B5722071301002F98DF /* SKNode+DSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,8 +366,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94B74B92220714B5002F98DF /* SKShapeNode+DSL.swift in Sources */,
 				94B74B54220712F7002F98DF /* SKNode+DSL.swift in Sources */,
 				94B74B5A22071308002F98DF /* SKPhysicsBody+DSL.swift in Sources */,
+				94B74B8F22071430002F98DF /* SKLabelNode+DSL.swift in Sources */,
+				94B74B8C2207140F002F98DF /* SKSpriteNode+DSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,7 +380,6 @@
 			files = (
 				94B74B4A22071279002F98DF /* macOS_SpriteKitDSLTests.swift in Sources */,
 				94B74B5B22071309002F98DF /* SKPhysicsBody+DSL.swift in Sources */,
-				94B74B55220712F8002F98DF /* SKNode+DSL.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,13 +9,14 @@
 import SpriteKit
 
 extension SKNode {
-    
-    public static func shapeNode(rectOf size: CGSize, cornerRadius radius: CGFloat, apply closure: (SKShapeNode) -> Void) -> SKShapeNode {
-        let shapeNode = SKShapeNode(rectOf: size, cornerRadius: radius)
-        closure(shapeNode)
-        return shapeNode
+    @objc
+    @discardableResult
+    func apply(_ closure: (SKNode) -> Void) -> SKNode {
+        closure(self)
+        return self
     }
     
+    @discardableResult
     func physicsBody(_ physicsBody: SKPhysicsBody, apply closure: (SKPhysicsBody) -> Void) -> SKPhysicsBody {
         self.physicsBody = physicsBody
         closure(physicsBody)

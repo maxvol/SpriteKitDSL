@@ -9,11 +9,9 @@
 import SpriteKit
 
 extension SKPhysicsBody {
-    
-    public static func rectangleOf(size: CGSize, apply closure: (SKPhysicsBody) -> Void) -> SKPhysicsBody {
-        let physicsBody = SKPhysicsBody(rectangleOf: size)
-        closure(physicsBody)
-        return physicsBody
+    @discardableResult
+    func apply(_ closure: (SKPhysicsBody) -> Void) -> SKPhysicsBody {
+        closure(self)
+        return self
     }
-    
 }
