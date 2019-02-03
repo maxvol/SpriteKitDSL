@@ -1,7 +1,7 @@
 # SpriteKitDSL
 Swift DSL for SpriteKit
 
-```
+```swift
 let node = SKNode.shapeNode(rectOf: size, cornerRadius: radius) {
     $0.lineWidth = 2.5            
     $0.run(SKAction.repeatForever(SKAction.rotate(byAngle: CGFloat(Double.pi), duration: 1)))
