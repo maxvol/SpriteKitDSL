@@ -11,7 +11,7 @@ import SpriteKit
 extension SKShapeNode {
     @objc
     @discardableResult
-    override func apply(_ closure: (SKShapeNode) -> Void) -> SKShapeNode {
+    public override func apply(_ closure: (SKShapeNode) -> Void) -> SKShapeNode {
         closure(self)
         return self
     }

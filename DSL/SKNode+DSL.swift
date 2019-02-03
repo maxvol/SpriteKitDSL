@@ -11,13 +11,13 @@ import SpriteKit
 extension SKNode {
     @objc
     @discardableResult
-    func apply(_ closure: (SKNode) -> Void) -> SKNode {
+    public func apply(_ closure: (SKNode) -> Void) -> SKNode {
         closure(self)
         return self
     }
     
     @discardableResult
-    func physicsBody(_ physicsBody: SKPhysicsBody, apply closure: (SKPhysicsBody) -> Void) -> SKPhysicsBody {
+    public func physicsBody(_ physicsBody: SKPhysicsBody, apply closure: (SKPhysicsBody) -> Void) -> SKPhysicsBody {
         self.physicsBody = physicsBody
         closure(physicsBody)
         return physicsBody

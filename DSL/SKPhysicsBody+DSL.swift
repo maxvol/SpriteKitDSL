@@ -10,7 +10,7 @@ import SpriteKit
 
 extension SKPhysicsBody {
     @discardableResult
-    func apply(_ closure: (SKPhysicsBody) -> Void) -> SKPhysicsBody {
+    public func apply(_ closure: (SKPhysicsBody) -> Void) -> SKPhysicsBody {
         closure(self)
         return self
     }

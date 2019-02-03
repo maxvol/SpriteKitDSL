@@ -11,7 +11,7 @@ import SpriteKit
 extension SKLabelNode {
     @objc
     @discardableResult
-    override func apply(_ closure: (SKLabelNode) -> Void) -> SKLabelNode {
+    public override func apply(_ closure: (SKLabelNode) -> Void) -> SKLabelNode {
         closure(self)
         return self
     }

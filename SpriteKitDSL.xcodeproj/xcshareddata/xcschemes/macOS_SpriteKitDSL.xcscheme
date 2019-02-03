@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "94B74B3B22071278002F98DF"
-               BuildableName = "macOS_SpriteKitDSL.framework"
+               BuildableName = "SpriteKitDSL.framework"
                BlueprintName = "macOS_SpriteKitDSL"
                ReferencedContainer = "container:SpriteKitDSL.xcodeproj">
             </BuildableReference>
@@ -43,7 +43,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94B74B3B22071278002F98DF"
-            BuildableName = "macOS_SpriteKitDSL.framework"
+            BuildableName = "SpriteKitDSL.framework"
             BlueprintName = "macOS_SpriteKitDSL"
             ReferencedContainer = "container:SpriteKitDSL.xcodeproj">
          </BuildableReference>
@@ -65,7 +65,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94B74B3B22071278002F98DF"
-            BuildableName = "macOS_SpriteKitDSL.framework"
+            BuildableName = "SpriteKitDSL.framework"
             BlueprintName = "macOS_SpriteKitDSL"
             ReferencedContainer = "container:SpriteKitDSL.xcodeproj">
          </BuildableReference>
@@ -83,7 +83,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "94B74B3B22071278002F98DF"
-            BuildableName = "macOS_SpriteKitDSL.framework"
+            BuildableName = "SpriteKitDSL.framework"
             BlueprintName = "macOS_SpriteKitDSL"
             ReferencedContainer = "container:SpriteKitDSL.xcodeproj">
          </BuildableReference>
