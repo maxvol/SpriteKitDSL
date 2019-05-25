@@ -16,5 +16,5 @@ let node = SKNode.shapeNode(rectOf: size, cornerRadius: radius) {
 
 Carthage setup -
 ```
-github "maxvol/SpriteKitDSL" ~> 0.0.5
+github "maxvol/SpriteKitDSL" ~> 0.1.0
 ```
