@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import macOS_SpriteKitDSL
+@testable import SpriteKitDSL
 
 class macOS_SpriteKitDSLTests: XCTestCase {
 
