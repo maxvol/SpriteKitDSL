@@ -14,3 +14,7 @@ let node = SKNode.shapeNode(rectOf: size, cornerRadius: radius) {
 }
 ```
 
+Carthage setup -
+```
+github "maxvol/SpriteKitDSL" ~> 0.1.0
+```
