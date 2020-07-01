@@ -10,7 +10,7 @@ let package = Package(
     products: [
         .library(
             name: "SpriteKitDSL",
-            targets: ["SpreiteKitDSL"]),
+            targets: ["SpriteKitDSL"]),
     ],
     dependencies: [
     ],
@@ -18,7 +18,7 @@ let package = Package(
         .target(
             name: "SpriteKitDSL",
             dependencies: [],
-            path: "DSL"),
+            path: "."),
 //        .testTarget(
 //            name: "SpriteKitDSLTests",
 //            dependencies: ["SpriteKitDSL"],
