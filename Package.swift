@@ -18,7 +18,7 @@ let package = Package(
         .target(
             name: "SpriteKitDSL",
             dependencies: [],
-            path: "."),
+            path: "DSL"),
 //        .testTarget(
 //            name: "SpriteKitDSLTests",
 //            dependencies: ["SpriteKitDSL"],
