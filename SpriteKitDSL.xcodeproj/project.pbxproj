@@ -26,13 +26,9 @@
 		94B74B2022071260002F98DF /* SpriteKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpriteKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B74B2222071260002F98DF /* iOS_SpriteKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_SpriteKitDSL.h; sourceTree = "<group>"; };
 		94B74B2322071260002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94B74B2D22071260002F98DF /* iOS_SpriteKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_SpriteKitDSLTests.swift; sourceTree = "<group>"; };
-		94B74B2F22071261002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B74B3C22071278002F98DF /* SpriteKitDSL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SpriteKitDSL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B74B3E22071279002F98DF /* macOS_SpriteKitDSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = macOS_SpriteKitDSL.h; sourceTree = "<group>"; };
 		94B74B3F22071279002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		94B74B4922071279002F98DF /* macOS_SpriteKitDSLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_SpriteKitDSLTests.swift; sourceTree = "<group>"; };
-		94B74B4B22071279002F98DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B74B8A2207140C002F98DF /* SKSpriteNode+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKSpriteNode+DSL.swift"; sourceTree = "<group>"; };
 		94B74B8D2207142D002F98DF /* SKLabelNode+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKLabelNode+DSL.swift"; sourceTree = "<group>"; };
 		94B74B9022071496002F98DF /* SKShapeNode+DSL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SKShapeNode+DSL.swift"; sourceTree = "<group>"; };
@@ -67,15 +63,6 @@
 			path = iOS_SpriteKitDSL;
 			sourceTree = "<group>";
 		};
-		94B74B2C22071260002F98DF /* iOS_SpriteKitDSLTests */ = {
-			isa = PBXGroup;
-			children = (
-				94B74B2D22071260002F98DF /* iOS_SpriteKitDSLTests.swift */,
-				94B74B2F22071261002F98DF /* Info.plist */,
-			);
-			path = iOS_SpriteKitDSLTests;
-			sourceTree = "<group>";
-		};
 		94B74B3D22071279002F98DF /* macOS_SpriteKitDSL */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,24 +72,13 @@
 			path = macOS_SpriteKitDSL;
 			sourceTree = "<group>";
 		};
-		94B74B4822071279002F98DF /* macOS_SpriteKitDSLTests */ = {
-			isa = PBXGroup;
-			children = (
-				94B74B4922071279002F98DF /* macOS_SpriteKitDSLTests.swift */,
-				94B74B4B22071279002F98DF /* Info.plist */,
-			);
-			path = macOS_SpriteKitDSLTests;
-			sourceTree = "<group>";
-		};
 		94D5E32D22023EA500E24B9A = {
 			isa = PBXGroup;
 			children = (
 				94B74A1E2205D278002F98DF /* README.md */,
 				94D5E3A722024C2A00E24B9A /* DSL */,
 				94B74B2122071260002F98DF /* iOS_SpriteKitDSL */,
-				94B74B2C22071260002F98DF /* iOS_SpriteKitDSLTests */,
 				94B74B3D22071279002F98DF /* macOS_SpriteKitDSL */,
-				94B74B4822071279002F98DF /* macOS_SpriteKitDSLTests */,
 				94D5E33822023EA500E24B9A /* Products */,
 			);
 			sourceTree = "<group>";
